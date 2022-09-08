@@ -8,7 +8,7 @@
 
 Make a web page like in the [example project](https://harveycla.github.io/HarveyTech_with_Bootstrap5/).
 
-🔗 To see live version 🎯https://tal58.github.io/Bootstrap_Workshop/1.practice/
+🔗 To see live version 🎯https://tal58.github.io/Bootstrap_Workshop/bootsrap-mihail_tech/
    
 ## Problem Statement
 
