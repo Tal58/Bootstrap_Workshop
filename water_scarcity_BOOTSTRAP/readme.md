@@ -25,6 +25,9 @@
 <br>
 <br>
 <br>
+
+
+<br>
 ## 📱Mobile version
 <br>
 <img src="images/mobile.gif" align="left" alt="mobile_version">
