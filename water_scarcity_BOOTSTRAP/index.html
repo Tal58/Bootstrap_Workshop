@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<title>Document</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3" href="#"><img src="./images/1.jpg" class="rounded-5" alt="" style="width:75%; height: 10vh;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#students">Water Scarcity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Natural Beauties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/3 (2).jpg" class="d-block w-100" alt="img1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Water Scarcity</h5>
+                    <p>Four billion people — almost two thirds of the world’s population —  experience severe water scarcity for at least one month each year.</p>
+                    <div>
+                        <button class="btn btn-danger">Start Now</button>
+                        <button class="btn btn-danger">Register</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/3 (5).jpg" class="d-block w-100" alt="img2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Water Scarcity</h5>
+                    <p>Over two billion people live in countries where water supply is inadequate.</p>
+                    <div>
+                        <button class="btn btn-danger">Start Now</button>
+                        <button class="btn btn-danger">Register</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/3 (6).jpg" class="d-block w-100" alt="img3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Water Scarcity</h5>
+                    <p>Half of the world’s population could be living in areas facing water scarcity by as early as 2025.</p>
+                    <div>
+                        <button class="btn btn-danger">Start Now</button>
+                        <button class="btn btn-danger">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- about us -->
+    <main class="text-center">
+        <section id="about" class="container bg-light p-3">
+            <h1 class="display-6 text-danger mb-4">ABOUT US</h1>
+
+            <div class="row justify-content-center">
+                <div class=" col-md-6 col-lg-4">
+                    <i class="fas fa-globe-americas fa-2x"></i>
+                    <h4>Water Shortage</h4>
+                    <p>Some 700 million people could be displaced by intense water scarcity by 2030.</p>
+                </div>
+                <div class=" col-md-6 col-lg-4">
+                    <i class="fas fa-headset fa-2x"></i>
+                    <h4>Water Shortage</h4>
+                    <p>By 2040, roughly 1 in 4 children worldwide will be living in areas of extremely high water stress.</p>
+                </div>
+                <div class=" col-md-6 col-lg-4">
+                    <i class="fas fa-book-open fa-2x"></i>
+                    <h4>Water Shortage</h4>
+                    <p>Over two billion people live in countries where water supply is inadequate.</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- photos -->
+        <section id="instructors" class="container bg-dark p-3 text-center ">
+            <h2 class="display-6 text-danger ">Water Scarcity</h2>
+            <div class="row g-3 justify-content-center">
+                <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="./images/4 (1).jpg" class="card-img-top" alt="p1">
+                        <div class="card-body">
+                            <h5 class="card-title">Water-1</h5>
+                            <p class="card-text">Water scarcity is a relative concept. The amount of water that can be physically accessed varies as ...</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="./images/4 (2).jpg" class="card-img-top" alt="p1">
+                        <div class="card-body">
+                            <h5 class="card-title">Water-2</h5>
+                            <p class="card-text">supply and demand changes. Water scarcity intensifies as demand increases and/or... </p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="./images/4 (3).jpg" class="card-img-top" alt="p1">
+                        <div class="card-body">
+                            <h5 class="card-title">Water-3</h5>
+                            <p class="card-text">as water supply is affected by decreasing quantity or quality.As the global population... </p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="./images/4 (4).jpg" class="card-img-top" alt="p1">
+                        <div class="card-body">
+                            <h5 class="card-title">Water-4</h5>
+                            <p class="card-text">increases, and resource-intensive economic development continues, many countries’ water...</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="./images/5 (2).jpg" class="card-img-top" alt="p1">
+                        <div class="card-body">
+                            <h5 class="card-title">Water-5</h5>
+                            <p class="card-text"> resources and infrastructure are failing to meet accelerating demand.The impacts of a ...</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="./images/6.jpg" class="card-img-top" alt="p1">
+                        <div class="card-body">
+                            <h5 class="card-title">Water-6</h5>
+                            <p class="card-text">changing climate are making water more unpredictable. This results in increased water scarcity.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                                <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- students -->
+        <section id="students" class="container">
+            <div class="row justify-content-evenly align-items-center p-5 my-3">
+                <div class="col-md-4 ">
+                    <h3>Water Scarcity</h3>
+                    <p>Water scarcity is an increasing problem on every continent, with poorer communities most badly affected. To build resilience against climate change and to serve a growing population, an integrated and inclusive approach must be taken to managing this finite resource.</p>
+                    <button type="button" class="btn btn-info">Info</button>
+                </div>
+                <div class=" col-md-4">
+                    <img src="./images/3 (1).jpg" class="card-img-top" alt="p1">
+                </div>
+            </div>
+
+        </section>
+        <!-- courses -->
+        <section id="courses" class="container p-3">
+                <h1 class="text-center text-light display-6">NATURAL BEAUTIES</h1>
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                  <button class="nav-link text-white active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Water</button>
+                 </li>
+                  <li class="nav-item" role="presentation">
+                  <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" tabindex="-1">Mountains</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link text-white" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" tabindex="-1">Forest</button>
+                </li>                 
+                </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                      <div class="row g-3">
+                        <div class=" col-md-6 col-lg-3">
+                          <a href="./images/5 (1).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/5 (1).jpg" alt=""></a>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/3 (2).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/3 (2).jpg" alt=""></a>
+        
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/3 (3).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/3 (3).jpg" alt=""></a>
+        
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/3 (4).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/3 (4).jpg" alt=""></a>
+        
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                      <div class="row g-3">
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/7 (4).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/7 (4).jpg" alt=""></a>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/7 (2).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/7 (2).jpg" alt=""></a>
+        
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/4 (6).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/4 (6).jpg" alt=""></a>
+        
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                         <a href="./images/7 (1).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/7 (1).jpg" alt=""></a>
+        
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/7 (6).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/7 (6).jpg" alt=""></a>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/7 (3).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/7 (3).jpg" alt=""></a>
+        
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/8.jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/8.jpg" alt=""></a>
+        
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <a href="./images/4 (3).jpg" data-fslightbox=""><img class="img-thumbnail " src="./images/4 (3).jpg" alt=""></a>
+        
+                        </div>
+                      </div>
+                  </div>                 
+                  </div>        
+              </section>                                          
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class=" p-4 text-start bg-light">
+
+            <form  action="result.html" method="get" id="checkout">
+
+                <div class="row mb-3 text-center justify-content-center">
+                    <h2>Contact</h2>
+                    <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dolorem nemo ea possimus inventore illo quo ducimus architecto quos velit!</p>
+                    <div class="phonecol-sm-6 col-md-4 col-lg-3 col-xl-2 lh-1">
+                        <i class="fa-solid fa-phone fa-2x"></i>
+                        <p><b>Phone</b></p>
+                        <p><b>+90 555 55 55</b></p>
+                    </div>
+                    <div class="whatsapp col-sm-6 col-md-4 col-lg-3 col-xl-2 lh-1">
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                        <p><b>Whatsapp</b></p>
+                        <p><b>+90 555 55 55</b></p>
+                    </div>
+                    <div class="mail col-sm-6 col-md-4 col-lg-3 col-xl-2 lh-1">
+                        <i class="fa-solid fa-envelope fa-2x"></i>
+                        <p><b>E-mail</b></p>
+                        <p><b>mihail.tal85@gmail.com</b></p>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="mb-3 ">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="mb-3">
+                    <textarea name="comment" id="comment" placeholder="Please enter your comments..." style="resize: none;"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="maps mb-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.730182608351!2d32.834755215316626!3d39.925053979425236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f190a9cea8f%3A0xd3862ea8248d08a0!2sAn%C4%B1tkabir!5e0!3m2!1str!2str!4v1662825689901!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+          
+              </form>
+        </section>
+    </main>
+
+    <!-- footer -->
+<footer class=" text-center bg-light pb-5">
+    <div class="footersocials d-flex justify-content-evenly">
+        <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+        <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+        <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+        <i class="fa-brands fa-google-plus-square fa-2x text-danger"></i>
+    </div>
+    <div class="col">
+        <div class="object justify-content-center col-8 ">
+            <p><i class="fa-regular fa-copyright"></i>Made with <i class="fa fa-heart-o"></i> by Mihail <i class="fa fa-text-width"></i></p>
+        </div>
+    </div>
+   
+</footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="./fslightbox-basic-3.3.1/fslightbox.js"></script>
+
+
+</body>
+
+</html>
