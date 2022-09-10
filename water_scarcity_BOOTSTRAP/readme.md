@@ -4,7 +4,7 @@
 <br><br>
 🎯 Main part constructed under the bootstrap attributes. Also in courses section fslightbox was used to design photos.
 <br><br>
-🔗 To see live version 🎯https://tal58.github.io/Bootstrap_Workshop/bootsrap-mihail_tech/water_scarcity_BOOTSTRAP/
+🔗 To see live version 🎯https://tal58.github.io/Bootstrap_Workshop/water_scarcity_BOOTSTRAP/
 <br>
 <center> ⌛ Happy Coding  ✍ </center>
 <br><br>
