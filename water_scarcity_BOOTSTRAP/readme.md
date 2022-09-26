@@ -1,6 +1,6 @@
 ## Water Shortage | Bootstrap Project
 
-👨‍💻 This project aims to improve my <b>HTML/CSS/JavaScript/Bootstrap skills and ©️cloning abilities</b> This project shows how to build an interactive landing page including Bootstrap and fslightbox attributes.
+👨‍💻 This project aims to improve my <b>HTML/CSS/Bootstrap skills and ©️cloning abilities</b> This project shows how to build an interactive landing page including Bootstrap and fslightbox attributes.
 <br><br>
 🎯 Main part constructed under the bootstrap attributes. Also in courses section fslightbox was used to design photos.
 <br><br>
